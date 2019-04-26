@@ -1,0 +1,26 @@
+{
+  "name": "angular7-builder",
+  "description": "",
+  "main": "",
+  "authors": [
+    "locnt19 <locnt19@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/locnt19/angular-7-builder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "fancybox": "^3.5.7",
+    "swiper": "^4.5.0",
+    "jquery": "^3.4.0",
+    "font-awesome": "^5.8.1",
+    "mdi": "^3.5.95",
+    "linearicons": "^1.0.1"
+  }
+}

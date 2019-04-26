@@ -1,0 +1,35 @@
+.home
+	h1
+		color: #C3002F
+		text-align: center
+		text-transform: uppercase
+	img
+		width: 150px
+		display: block
+		margin: 0 auto
+.sidebar
+	list-style: none
+	margin: 0
+	padding: 0
+	li
+		&:before
+			margin-right: 9px
+			content: ''
+			display: inline-block
+			font-size: inherit
+			line-height: 1
+			text-rendering: auto
+			font-family: 'Material Design Icons'
+			-webkit-font-smoothing: antialiased
+			-moz-osx-font-smoothing: grayscale
+		&:nth-child(1)
+			&:before
+				content: '\f2dc'
+		&:nth-child(2)
+			&:before
+				content: '\f004'
+		a
+			color: #333
+			&.active
+				font-weight: 700
+				color: #0026B2
