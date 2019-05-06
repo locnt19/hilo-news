@@ -28,13 +28,13 @@
             ],
             "styles": [
               "src/_core/grid.sass",
-              "src/_core/webfonts.sass",
-              "src/_core/icons.sass",
+              // "src/_core/webfonts.sass",
+              // "src/_core/icons.sass",
               "src/styles.sass"
             ],
             "scripts": [
-              "bower_components/jquery/dist/jquery.min.js",
-              "bower_components/swiper/dist/js/swiper.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/swiper/dist/js/swiper.min.js",
               "src/_scripts/mapping-listener.js",
               "src/_scripts/mapping.js",
               "src/_scripts/global.js"

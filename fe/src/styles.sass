@@ -1,2 +1,74 @@
 /* ======= src/styles.sass ======= */
 /* Global styles write here */
+html
+	overflow-x: hidden
+	&.active
+		overflow: hidden
+body
+	font-family: 'Source Sans Pro', sans-serif
+	font-weight: 400
+	font-size: 16px
+	color: #333
+	background: #fff
+	position: relative
+	@media (max-width: 992px)
+		font-size: 15px
+	@media (max-width: 768px)
+		font-size: 14px
+	@media (max-width: 576px)
+		font-size: 13px
+i
+	font-style: normal
+	outline: none
+a
+	color: inherit
+	font-size: inherit
+	text-decoration: none !important
+img
+	max-width: 100%
+	height: auto
+ul
+	list-style: none
+	padding: 0
+	margin: 0
+hr
+	margin: 0
+	width: 100%
+	border: .5px solid rgba(255,255,255,.2)
+.main-title
+	text-transform: uppercase
+	text-align: center
+	font-weight: 700
+	font-size: 50px
+	margin-bottom: 30px
+	width: 100%
+	line-height: 1
+	@media (max-width: 992px)
+		font-size: 40px
+		margin-bottom: 25px
+	@media (max-width: 768px)
+		font-size: 30px
+		margin-bottom: 20px
+	@media (max-width: 576px)
+		font-size: 20px
+.modulepager
+	display: flex
+	justify-content: center
+	.pagination
+		margin-top: 30px
+		display: flex
+		li
+			width: 30px
+			height: 30px
+			display: flex
+			align-items: center
+			justify-content: center
+			background: #f2f2f2
+			&:not(:last-child)
+				margin-right: 15px
+			&.active
+				background: #00A650
+		span
+			color: #fff
+		a
+			color: #999
